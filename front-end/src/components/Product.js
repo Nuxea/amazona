@@ -45,7 +45,7 @@ function Product(props) {
                     <Button onClick={() => addToCartHandler(product)} variant="primary">
                         Add to Cart
                     </Button>
-                )};
+                )}
             </Card.Body>
         </Card>
     );
